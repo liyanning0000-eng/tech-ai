@@ -139,7 +139,7 @@ export default async function Image() {
               letterSpacing: "0.06em",
             }}
           >
-            AI-Powered Web Applications &nbsp;&bull;&nbsp; Restore.xyz &nbsp;&bull;&nbsp; FuneratPhoto
+            AI-Powered Web Applications &nbsp;&bull;&nbsp; RestorePic &nbsp;&bull;&nbsp; FuneralPhoto
           </p>
         </div>
 

@@ -9,8 +9,8 @@ const footerLinks = {
     { href: "/contact", label: "Contact" },
   ],
   Products: [
-    { href: "/products/restore", label: "Restore.xyz" },
-    { href: "/products/funeratphoto", label: "FuneratPhoto" },
+    { href: "/products/restore", label: "RestorePic" },
+    { href: "/products/funeralphoto", label: "FuneralPhoto" },
   ],
   Legal: [
     { href: "/privacy", label: "Privacy Policy" },

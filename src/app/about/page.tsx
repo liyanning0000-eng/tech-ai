@@ -23,7 +23,7 @@ const timeline = [
   },
   {
     date: "April 2026",
-    title: "FuneratPhoto Launched",
+    title: "FuneralPhoto Launched",
     description:
       "Our compassionate memorial photo enhancement tool launches, purpose-built to help families preserve and honor their most irreplaceable memories.",
   },

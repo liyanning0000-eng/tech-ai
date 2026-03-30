@@ -59,7 +59,7 @@ const features = [
 const products = [
   {
     slug: "restore",
-    name: "Restore.xyz",
+    name: "RestorePic",
     tagline: "Bring Old Photos Back to Life",
     description: "AI-powered photo restoration that repairs damaged, faded, and scratched photographs with stunning clarity.",
     tags: ["Photo Restoration", "AI Enhancement", "HD Upscaling"],
@@ -72,8 +72,8 @@ const products = [
     ),
   },
   {
-    slug: "funeratphoto",
-    name: "FuneratPhoto",
+    slug: "funeralphoto",
+    name: "FuneralPhoto",
     tagline: "Honor Every Memory with Dignity",
     description: "A compassionate AI tool designed to beautifully enhance memorial photographs, helping families preserve their most precious moments.",
     tags: ["Memorial Photos", "Gentle Enhancement", "Privacy Secure"],

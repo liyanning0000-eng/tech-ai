@@ -51,7 +51,7 @@ const stars: StarItem[] = [
     color: "#f97316",
     glow: "rgba(249,115,22,0.4)",
     question: "How many active products?",
-    answer: "2 products — Restore.xyz & FuneratPhoto",
+    answer: "2 products — RestorePic & FuneralPhoto",
     tooltipDir: "left",
   },
   {

@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 const products = [
   {
     slug: "restore",
-    name: "Restore.xyz",
-    url: "restore.xyz",
+    name: "RestorePic",
+    url: "restorepic.xyz",
     tagline: "Bring Old Photos Back to Life",
     description:
       "AI-powered photo restoration that repairs damaged, faded, scratched, and degraded photographs with stunning clarity. Transform precious memories into vibrant, high-definition keepsakes.",
@@ -30,9 +30,9 @@ const products = [
     statusColor: "#4ade80",
   },
   {
-    slug: "funeratphoto",
-    name: "FuneratPhoto",
-    url: "funeratphoto.com",
+    slug: "funeralphoto",
+    name: "FuneralPhoto",
+    url: "funeralphoto.com",
     tagline: "Honor Every Memory with Dignity",
     description:
       "A compassionate AI tool designed specifically to enhance memorial and funeral photographs. Purpose-built for families preserving their most irreplaceable moments.",
@@ -66,7 +66,7 @@ const upcoming = [
   },
   {
     name: "DocuMind",
-    description: "AI-powered document intelligence ? extract, summarize, and analyze complex documents, contracts, and reports in seconds.",
+    description: "AI-powered document intelligence - extract, summarize, and analyze complex documents, contracts, and reports in seconds.",
     tags: ["Document AI", "Summarization", "Analysis"],
     eta: "2027",
   },
@@ -163,6 +163,15 @@ export default function ProductsPage() {
                       >
                         Visit Site &#8599;
                       </a>
+                    </div>
+                    <div className="mt-3 flex items-center gap-3">
+                      <Link href="/privacy" className="text-xs text-[#555] hover:text-white transition-colors">
+                        Privacy Policy
+                      </Link>
+                      <span className="text-[#333]">&#183;</span>
+                      <Link href="/terms" className="text-xs text-[#555] hover:text-white transition-colors">
+                        Terms of Service
+                      </Link>
                     </div>
                   </div>
 

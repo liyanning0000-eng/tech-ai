@@ -6,7 +6,7 @@ export default function JsonLd() {
     url: "https://novatechai.com",
     logo: "https://novatechai.com/logo.png",
     description:
-      "Nova Tech AI Limited is a Hong Kong-based technology company building AI-powered mobile applications.",
+      "Nova Tech AI Limited is a Hong Kong-based technology company building AI-powered web applications.",
     email: "win060787@gmail.com",
     foundingDate: "2026-03",
     address: {
@@ -17,30 +17,30 @@ export default function JsonLd() {
     sameAs: [],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "AI Mobile Applications",
+      name: "AI Web Applications",
       itemListElement: [
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "SoftwareApplication",
-            name: "Restore.xyz",
+            name: "RestorePic",
             applicationCategory: "PhotographyApplication",
             operatingSystem: "Web",
             description:
               "AI-powered photo restoration application that repairs and enhances damaged photographs.",
-            url: "https://restore.xyz",
+            url: "https://restorepic.xyz",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "SoftwareApplication",
-            name: "FuneratPhoto",
+            name: "FuneralPhoto",
             applicationCategory: "PhotographyApplication",
             operatingSystem: "Web",
             description:
               "Compassionate AI tool for enhancing memorial and funeral photographs.",
-            url: "https://funeratphoto.com",
+            url: "https://funeralphoto.com",
           },
         },
       ],

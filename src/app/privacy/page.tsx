@@ -66,7 +66,7 @@ export default function PrivacyPage() {
             </ul>
             <h3>2.3 Photo Data - Special Handling</h3>
             <p>
-              Our Services (including Restore.xyz and FuneratPhoto) involve the processing of photographs submitted by users. We treat photo data with the highest level of care:
+              Our Services (including RestorePic and FuneralPhoto) involve the processing of photographs submitted by users. We treat photo data with the highest level of care:
             </p>
             <ul>
               <li>Photos are transmitted using TLS 1.3 encryption.</li>
@@ -183,6 +183,15 @@ export default function PrivacyPage() {
                 <p className="text-[#333] text-xs pt-2">Response time: Within 30 days</p>
               </div>
             </div>
+          </section>
+
+          <section>
+            <h2>14. Product Domains</h2>
+            <p>This Privacy Policy applies to the following product domains operated by Nova Tech AI Limited:</p>
+            <ul>
+              <li><a href="https://restorepic.xyz" target="_blank" rel="noopener noreferrer">https://restorepic.xyz</a></li>
+              <li><a href="https://funeralphoto.com" target="_blank" rel="noopener noreferrer">https://funeralphoto.com</a></li>
+            </ul>
           </section>
 
         </div>

@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "FuneratPhoto | Memorial Photo Enhancement",
+  title: "FuneralPhoto | Memorial Photo Enhancement",
   description:
-    "FuneratPhoto is a compassionate AI tool that helps families beautifully enhance memorial and funeral photographs. Privacy-first, instant, and thoughtfully designed.",
+    "FuneralPhoto is a compassionate AI tool that helps families beautifully enhance memorial and funeral photographs. Privacy-first, instant, and thoughtfully designed.",
 };
 
 const features = [
@@ -26,7 +26,7 @@ const features = [
   {
     title: "Damage Restoration",
     description:
-      "Repairs scratches, tears, and physical damage in older photographs ? perfect for restoring cherished family portraits from decades past.",
+      "Repairs scratches, tears, and physical damage in older photographs - perfect for restoring cherished family portraits from decades past.",
   },
   {
     title: "Color Enhancement",
@@ -65,24 +65,24 @@ const useCases = [
 
 const faqs = [
   {
-    q: "How is FuneratPhoto different from regular photo editing apps?",
-    a: "FuneratPhoto is purpose-built for memorial use cases. Its enhancement models are specifically tuned for portrait dignity, and its entire design is built around the sensitivity of this context.",
+    q: "How is FuneralPhoto different from regular photo editing apps?",
+    a: "FuneralPhoto is purpose-built for memorial use cases. Its enhancement models are specifically tuned for portrait dignity, and its entire design is built around the sensitivity of this context.",
   },
   {
     q: "Are the photos I submit kept private?",
     a: "Absolutely. All submitted photographs are encrypted in transit, processed in an isolated environment, and permanently deleted immediately after the result is delivered. We retain no copies, no metadata, and no processing history.",
   },
   {
-    q: "How quickly does FuneratPhoto process images?",
-    a: "Most photos are processed within 10?20 seconds. We understand that families often need results quickly, and we've optimized our pipeline accordingly.",
+    q: "How quickly does FuneralPhoto process images?",
+    a: "Most photos are processed within 10-20 seconds. We understand that families often need results quickly, and we've optimized our pipeline accordingly.",
   },
   {
     q: "What image quality do I need to upload?",
-    a: "FuneratPhoto can work with photos of any quality, including very old or low-resolution images. The AI is specifically designed to extract and enhance detail from imperfect sources.",
+    a: "FuneralPhoto can work with photos of any quality, including very old or low-resolution images. The AI is specifically designed to extract and enhance detail from imperfect sources.",
   },
   {
-    q: "Can I use FuneratPhoto for old black-and-white photographs?",
-    a: "Yes. FuneratPhoto can restore, enhance, and optionally colorize black-and-white photographs of loved ones.",
+    q: "Can I use FuneralPhoto for old black-and-white photographs?",
+    a: "Yes. FuneralPhoto can restore, enhance, and optionally colorize black-and-white photographs of loved ones.",
   },
   {
     q: "Is there a support team I can contact?",
@@ -133,7 +133,7 @@ function FuneratIllustration() {
         <path d="M94 156C94 156 97 153 100 156C103 153 106 156 106 156" stroke="white" strokeOpacity="0.12" strokeWidth="0.8" strokeLinecap="round"/>
         
         {/* Bottom caption */}
-        <text x="100" y="185" textAnchor="middle" fill="#444" fontSize="8" fontFamily="sans-serif">memorial ? tribute ? legacy</text>
+        <text x="100" y="185" textAnchor="middle" fill="#444" fontSize="8" fontFamily="sans-serif">memorial · tribute · legacy</text>
 
         <defs>
           <radialGradient id="portraitGlow" cx="0.5" cy="0.3" r="0.8">
@@ -145,7 +145,7 @@ function FuneratIllustration() {
 
       <div className="absolute bottom-5 left-0 right-0 flex justify-center">
         <span className="px-3 py-1 bg-white/5 border border-white/8 rounded-full text-xs text-[#555]">
-          funeratphoto.com
+          funeralphoto.com
         </span>
       </div>
     </div>
@@ -163,7 +163,7 @@ export default function FuneratPhotoPage() {
           <span>/</span>
           <Link href="/products" className="hover:text-white transition-colors">Products</Link>
           <span>/</span>
-          <span className="text-[#666]">FuneratPhoto</span>
+          <span className="text-[#666]">FuneralPhoto</span>
         </div>
 
         {/* Hero */}
@@ -179,13 +179,13 @@ export default function FuneratPhotoPage() {
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-semibold text-white tracking-tight leading-tight mb-4">
-              FuneratPhoto
+              FuneralPhoto
             </h1>
             <p className="text-xl text-[#666] mb-6 leading-relaxed">
               Honor Every Memory with Dignity
             </p>
             <p className="text-[#444] leading-relaxed mb-8">
-              FuneratPhoto is a compassionate AI application designed to help families
+              FuneralPhoto is a compassionate AI application designed to help families
               enhance and preserve memorial photographs. Every aspect \u2014 from its technology
               to its interface \u2014 is designed with care, respect, and an absolute commitment
               to your privacy.
@@ -193,15 +193,24 @@ export default function FuneratPhotoPage() {
 
             <div className="flex flex-wrap gap-3 mb-8">
               <a
-                href="https://funeratphoto.com"
+                href="https://funeralphoto.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary btn-glow"
               >
-                Open FuneratPhoto &#8599;
+                Open FuneralPhoto &#8599;
               </a>
               <Link href="/contact" className="btn-secondary">
                 Contact Us
+              </Link>
+            </div>
+            <div className="flex items-center gap-3 mb-8">
+              <Link href="/privacy" className="text-xs text-[#555] hover:text-white transition-colors">
+                Privacy Policy
+              </Link>
+              <span className="text-[#333]">&#183;</span>
+              <Link href="/terms" className="text-xs text-[#555] hover:text-white transition-colors">
+                Terms of Service
               </Link>
             </div>
 
@@ -220,7 +229,7 @@ export default function FuneratPhotoPage() {
         {/* Use Cases */}
         <div className="mb-24">
           <p className="text-xs text-[#444] uppercase tracking-widest mb-10">
-            How Families Use FuneratPhoto
+            How Families Use FuneralPhoto
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {useCases.map((useCase) => (
@@ -262,7 +271,7 @@ export default function FuneratPhotoPage() {
           <p className="text-[#444] leading-relaxed mb-8 max-w-2xl text-sm">
             We understand that photographs of loved ones are not ordinary data. They are
             irreplaceable records of people who are deeply missed. That is why our privacy
-            policy goes beyond legal compliance ? it is a commitment built into the
+            policy goes beyond legal compliance - it is a commitment built into the
             architecture of our system.
           </p>
 

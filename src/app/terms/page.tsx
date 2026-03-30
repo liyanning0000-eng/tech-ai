@@ -31,7 +31,7 @@ export default function TermsPage() {
 
           <section>
             <p>
-              These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;User,&quot; &quot;you,&quot; or &quot;your&quot;) and Nova Tech AI Limited (&quot;Nova Tech AI,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), a company incorporated in the Hong Kong Special Administrative Region, governing your access to and use of our mobile applications, websites, and related services (collectively, the &quot;Services&quot;).
+              These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;User,&quot; &quot;you,&quot; or &quot;your&quot;) and Nova Tech AI Limited (&quot;Nova Tech AI,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), a company incorporated in the Hong Kong Special Administrative Region, governing your access to and use of our web applications, websites, and related services (collectively, the &quot;Services&quot;).
             </p>
             <p>
               By downloading, installing, accessing, or using any of our Services, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy, which is incorporated herein by reference. If you do not agree to these Terms, you must not use our Services.
@@ -54,11 +54,11 @@ export default function TermsPage() {
           <section>
             <h2>2. Description of Services</h2>
             <p>
-              Nova Tech AI provides AI-powered mobile applications, including but not limited to:
+              Nova Tech AI provides AI-powered web applications, including but not limited to:
             </p>
             <ul>
-              <li><strong>Restore.xyz:</strong> An AI photo restoration application that repairs, enhances, and upscales damaged or degraded photographs.</li>
-              <li><strong>FuneratPhoto:</strong> An AI-powered memorial photo enhancement application designed to help families preserve and honor photographs of loved ones.</li>
+              <li><strong>RestorePic:</strong> An AI photo restoration application that repairs, enhances, and upscales damaged or degraded photographs.</li>
+              <li><strong>FuneralPhoto:</strong> An AI-powered memorial photo enhancement application designed to help families preserve and honor photographs of loved ones.</li>
             </ul>
             <p>
               We reserve the right to modify, suspend, or discontinue any aspect of our Services at any time, with or without notice. We shall not be liable to you or any third party for any modification, suspension, or discontinuation of Services.
@@ -120,7 +120,7 @@ export default function TermsPage() {
               All intellectual property rights in our Services, including but not limited to software, algorithms, interfaces, logos, trademarks, and documentation, are owned by or licensed to Nova Tech AI. Nothing in these Terms grants you any right, title, or interest in our intellectual property other than the limited license to use our Services as described herein.
             </p>
             <p>
-              &quot;Nova Tech AI,&quot; &quot;Restore.xyz,&quot; &quot;FuneratPhoto,&quot; and associated logos are trademarks of Nova Tech AI Limited. You may not use our trademarks without our prior written consent.
+              &quot;Nova Tech AI,&quot; &quot;RestorePic,&quot; &quot;FuneralPhoto,&quot; and associated logos are trademarks of Nova Tech AI Limited. You may not use our trademarks without our prior written consent.
             </p>
           </section>
 
@@ -206,7 +206,16 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2>16. Contact Us</h2>
+            <h2>16. Product Domains</h2>
+            <p>These Terms apply to services delivered on the following domains:</p>
+            <ul>
+              <li><a href="https://restorepic.xyz" target="_blank" rel="noopener noreferrer">https://restorepic.xyz</a></li>
+              <li><a href="https://funeralphoto.com" target="_blank" rel="noopener noreferrer">https://funeralphoto.com</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>17. Contact Us</h2>
             <p>
               If you have questions about these Terms of Service, please contact us:
             </p>
